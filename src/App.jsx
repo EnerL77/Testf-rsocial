@@ -1,3 +1,6 @@
+function App()
+export default App;   // ← genau diese Zeile am Ende hinzufügen
+
 {/* HERO */}
 <section className="relative overflow-hidden">
   {/* Hintergrundbild */}
@@ -47,6 +50,7 @@
         src="/team.jpg"
         alt="Team arbeitet an Kampagnen"
         className="rounded-3xl shadow-2xl border border-white/10 max-w-full h-auto"
+        export default App;  
       />
     </div>
   </div>
