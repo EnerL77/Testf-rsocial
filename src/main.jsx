@@ -1,10 +1,10 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Page from "./App.jsx";   // ← App → Page
+import App from "./App.jsx";   // ← default-Import von App
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Page />                    // ← <App /> → <Page />
+    <App />
   </React.StrictMode>
 );
